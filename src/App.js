@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import CardList from '../components/CardList';
-import SearchBox from '../components/SearchBox';
-import Scroll from '../components/Scroll';
-import ErrorBoundary from '../components/ErrorBoundary';
+import CardList from './components/CardList';
+import SearchBox from './components/SearchBox';
+import Scroll from './components/Scroll';
+import ErrorBoundary from './components/ErrorBoundary';
 //import { robots } from './robots';
-import '../style.css';
+import './style.css';
 
 
 class App extends Component {
